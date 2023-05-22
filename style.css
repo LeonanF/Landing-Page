@@ -1,6 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 *{
     margin: 0;
@@ -22,14 +22,19 @@ header{
     align-items: center;    
 }
 
-nav{
-    display: flex;
-}
-
 li{
     margin: 0 20px;
     list-style: none;
     text-transform: uppercase;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    position: absolute;
 }
 
 .main-container{
@@ -46,6 +51,10 @@ li{
     background-size: cover;
     background-position: 20%;
     filter: brightness(40%);
+}
+
+.nav-home{
+    display: flex;
 }
 
 .joia{
@@ -167,7 +176,7 @@ li{
     padding: 30px;
 }
 
-.card .title h1, .card .title h2{
+.title h1, .title h2{
     margin: 25px 0;
     text-transform: uppercase;
 }
@@ -182,4 +191,172 @@ li{
 .name{
     margin-top: 30px;
     font-weight: 200;
+}
+
+.colection{
+    height: 90vh;
+}
+
+.text-colection{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.card-container{
+    width: 25vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-colection{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-colection{
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-colection button{
+    margin-top: 4vh;
+    background-color: #AF9D81;
+    color: #F6F4F1;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.3s linear;
+}
+
+.btn-colection button:hover{
+    background-color: #F6F4F1;
+    color: #AF9D81;
+}
+.btn-colection button:active{
+    transform: scale(0.9);
+}
+
+.img-colection{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+}
+
+.img-colection img{
+    width: 20vw;
+}
+
+.img-colection img, .img-colection-2 img{
+    height: fit-content;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.img-colection-2 img{
+    margin: 5vw 3vw;
+    margin-left: -3vw;
+    width: 25vw;
+    position: relative;
+    top: 15%;
+}
+
+.img-container{
+    max-width: 20vw;
+    margin: 5vw 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.img-container img:nth-child(2){
+    width: 70%;
+}
+
+.sign-up{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-end{
+    height: 90vh;
+    width: 100%;
+    background: url(assets/joia-end.webp) no-repeat;
+    background-size: cover;
+    background-position: 30%;
+    filter: brightness(0.7);
+    position: absolute;
+}
+
+.card-end{
+    position: relative;
+    background-color: #F6F4F1;
+    height: 45vh;
+    width: 50%;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.card-end p{
+    margin: auto auto;
+    max-width: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first-half{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.second-half{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+    align-items: center;
+}
+
+.logo-footer{
+    font-size: 2em;
+    margin: 0 3vw;
+}
+
+.nav-footer{
+    display: flex;
+}
+
+.nav-footer nav{
+    margin-left: 7vw;
+}
+
+.nav-footer li{
+    line-height: 2em;
+}
+
+.barra{
+    height: 7vh;
+    border-left: 2px solid;
+}
+
+.terms{
+    font-size: 1.3em;
 }
